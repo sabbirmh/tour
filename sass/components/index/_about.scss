@@ -1,0 +1,125 @@
+/* =======******====== About======******====== */
+
+#about {
+
+    padding: 80px 0 20px;
+    
+    .about_img_slider {
+        position: relative;
+        
+        .content {
+            position: absolute;
+            left: 25%;
+            top: 0;
+        }
+    }
+
+    
+    .about_info {
+        margin-top: 30px;
+        
+        
+        h4 {
+            color: #999;
+            font-size: 14px;
+            font-weight: 400;
+            font-family: 'Nunito Sans', sans-serif;
+            line-height: 20px;
+        }
+    }
+    
+    .about_head {
+        h3 {
+            color: #555;
+            font-size: 25px;
+            font-weight: 900;
+            font-family: 'Nunito Sans', sans-serif;
+            position: relative;
+            
+            &::after {
+                position: absolute;
+                content: '';
+                left: 0;
+                bottom: -4px;
+                width: 100%;
+                height: 2px;
+                background: #7FFFD4;
+                box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.96);
+                -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.96);
+                -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.96);
+            }
+        }
+    }
+    
+    .about_right {
+        position: relative;
+        
+
+        .about_right_image {
+            position: relative;
+            transition: all linear.3s;
+            
+            .overley{
+                position: absolute;
+                left: 0;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 28, 61, 0.5);
+                opacity: 1;
+            }
+            
+            .image_back {
+                position: absolute;
+                left: 50%;
+                top: 10%;
+                transform: rotateY(190deg);
+                visibility: hidden;
+                
+                h5 {
+                    color: #f6f6f6;
+                    font-size: 20px;
+                    font-weight: 700;
+                    font-family: 'Nunito Sans', sans-serif;
+                }
+
+                a {
+                    color: #f1f1f1;
+                    font-size: 13px;
+                    font-weight: 600;
+                    font-family: 'Nunito Sans', sans-serif;
+                    border: 1px solid #7FFFD4;
+                    padding: 5px 10px;
+                    margin-top: 13px;
+                    transition: all linear .3s;
+                    
+                    &:hover {
+                        border: 1px solid #7FFFD4;
+                        color: #222;
+                        background: #7FFFD4;
+                    }
+                }
+            }
+            
+        }
+
+        &:hover {
+            .about_right_image {
+                transform: rotateY(190deg);
+                background-color: rgba(0, 51, 102, 0.8);
+
+                .image_back {
+                    visibility: visible;
+                    
+                }
+            }
+            
+            
+        }
+    }
+    
+
+}
+    /* =======******====== About======******====== */

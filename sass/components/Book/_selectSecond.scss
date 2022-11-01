@@ -1,0 +1,37 @@
+/* =======******====== select part Two======******====== */
+
+#select_two_part{
+    padding: 15px 0;
+    .container{
+        .typologies_part{
+            h4{
+                color: #555;
+                font-size: 20px;
+                font-weight: 700;
+                font-family: 'Nunito Sans', sans-serif;
+               margin-bottom: 20px;
+            }
+            .check_form{
+               
+                .form-check{
+                    input{
+                        border: 1px solid #999;
+                    }
+
+                    label{
+                        color: #6666;
+                        font-size: 15px;
+                        font-weight: 400;
+                        font-family: 'Nunito Sans', sans-serif;
+                    }
+                }
+            }
+
+        }
+
+        .second_row{
+            margin-top: 13px;
+        }
+    }
+}
+/* =======******====== select part Two======******====== */

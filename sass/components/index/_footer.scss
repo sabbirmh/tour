@@ -1,0 +1,121 @@
+#footer {
+    .footer_part {
+        padding: 100px 0 100px;
+
+        .container {
+            position: relative;
+            padding: 50px 0;
+            // background: rgba(127, 255, 212, 0.4);
+            background: rgba(255, 255, 255, 0.9);
+
+
+            .footer_left {
+                .footer_logo {
+                    width: 200px;
+                }
+
+                .footer_left_info {
+                    p {
+                        color: #666;
+                        font-size: 13px;
+                        font-weight: 600;
+                        font-family: 'Nunito Sans', sans-serif;
+                        margin-left: 10px;
+                        line-height: 20px;
+                        margin-top: 10px;
+                    }
+                }
+            }
+
+            .footer_icon {
+                a {
+                    margin-left: 10px;
+                    margin-top: 40px;
+                    font-size: 13px;
+                    color: #00BFFF;
+                    transition: all linear .3s;
+
+                    &:hover {
+                        color: orange;
+                    }
+
+                }
+
+            }
+
+            .footer_middle {
+
+                .agency {
+
+                    margin-left: 20px;
+
+                    h4 {
+                        color: #000;
+                        font-size: 18px;
+                        font-weight: 600;
+                        font-family: 'Nunito Sans', sans-serif;
+
+                    }
+
+                    ul {
+                        margin-top: 40px;
+
+                        li {
+                            color: #666;
+                            font-size: 14px;
+                            font-weight: 600;
+                            font-family: 'Nunito Sans', sans-serif;
+                            margin-top: 5px;
+                        }
+                    }
+                }
+            }
+
+            .cont_text {
+                h4 {
+                    color: #000;
+                    font-size: 18px;
+                    font-weight: 600;
+                    font-family: 'Nunito Sans', sans-serif;
+
+                }
+
+                ul {
+                    margin-top: 40px;
+
+                    li {
+                        i {
+                            color: #00BFFF;
+                            font-size: 14px;
+                            margin-right: 10px;
+                        }
+
+                        color: #666;
+                        font-size: 14px;
+                        font-weight: 600;
+                        font-family: 'Nunito Sans',sans-serif;
+
+                    }
+                }
+            }
+
+            .footer_last {
+                position: absolute;
+                height: 50px;
+                width: 100%;
+                background: #00BFFF;
+                margin-top: 49px;
+
+                h6 {
+                    color: #000;
+                    font-size: 14px;
+                    font-weight: 600;
+                    font-family: 'Nunito Sans',sans-serif;
+                    margin: 10px 0;
+                }
+
+
+            }
+        }
+    }
+}

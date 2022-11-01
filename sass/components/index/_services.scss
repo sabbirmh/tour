@@ -1,0 +1,80 @@
+#hotel_part {
+    padding: 60px;
+
+    .container {
+        .head {
+            h3 {
+                color: #555;
+                font-size: 30px;
+                font-weight: 400;
+                font-family: 'Nunito Sans', sans-serif;
+                position: relative;
+            }
+        }
+
+        .row_service {
+            margin-top: 30px;
+
+            .hotel_detail {
+                h5 {
+                    color: #00BFFF;
+                    font-size: 15px;
+                    font-weight: 600;
+                    font-family: 'Nunito Sans', sans-serif;
+                    margin-bottom: 20px;
+
+                }
+
+                p {
+                    color: #9a9a9a;
+                    font-size: 13px;
+                    font-weight: 600;
+                    font-family: 'Nunito Sans', sans-serif;
+                    margin-top: 10px;
+                }
+
+
+            }
+
+            .language_service {
+                h5 {
+                    color: #00BFFF;
+                    font-size: 15px;
+                    font-weight: 600;
+                    font-family: 'Nunito Sans', sans-serif;
+                    margin-bottom: 20px;
+
+                }
+
+                p {
+                    color: #9a9a9a;
+                    font-size: 13px;
+                    font-weight: 600;
+                    font-family: 'Nunito Sans', sans-serif;
+                    margin-top: 10px;
+                }
+            }
+
+            .security_service {
+                h5 {
+                    color: #00BFFF;
+                    font-size: 15px;
+                    font-weight: 600;
+                    font-family: 'Nunito Sans', sans-serif;
+                    margin-bottom: 20px;
+
+                }
+
+                p {
+                    color: #9a9a9a;
+                    font-size: 13px;
+                    font-weight: 600;
+                    font-family: 'Nunito Sans', sans-serif;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+
+
+}

@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+
+    <!-- <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+    <script type="text/javascript" src="engine1/jquery.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"> -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =======--=====--==---- Menu Part ////----==--=====--======== -->
+
+    <section id="menus">
+        <div class="container px-lg-0">
+            <div class="row">
+                <div class="menu_part">
+                    <div class="col-lg-2">
+                        <div class="logo">
+                            <img src="images/bannerimage/banlogo.png" class="img-fluid w-100" alt="">
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-7">
+                        <div class="menu">
+                            <ul>
+                                <li class="current"><a href="#">Home</a></li>
+                                <li class="animate__animated animate__flipInX"><a href="#">Tour</a></li>
+                                <li class="animate__animated animate__flipInX"><a href="#">Services</a></li>
+                                <li class="animate__animated animate__flipInX"><a href="#">Packages</a></li>
+                                <li class="animate__animated animate__flipInX"><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="menu_right text-center">
+                            <a href="#">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =======--=====--==---- Menu Part ////----==--=====--======== -->
+
+
+
+
+    <!-- =======--=====--==---- Banner Part ////----==--=====--======== -->
+
+    <section id="desti_banner">
+        <div class="banner_part main_overley"
+            style="background: url(images/book/bban.jpg) no-repeat center; background-size: cover;">
+            <div class="container px-lg-0">
+                <div class="row">
+                    <div class="col-lg-6 m-auto">
+                        <div class="banner_head text-center">
+                            <h1>Book Now & <span>Get Special Package</span> </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =======--=====--==---- Banner Part ////----==--=====--======== -->
+
+
+
+    <!-- =======--=====--==---- select Part ////----==--=====--======== -->
+
+    <section id="select_part">
+        <div class="container px-lg-0">
+            <div class="row">
+                <div class="col-lg-6 ">
+                    <div class="select_desti text-center">
+                        <h4>Search Your Favourite Destination</h4>
+                        <select class="select">
+                            <option value="">-- Destinations --</option>
+                            <option value="">-- USA --</option>
+                            <option value="">-- EUROPE --</option>
+                            <option value="">-- AISA --</option>
+                            <option value="">-- AUSTRALIA --</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 ">
+                    <div class="select_time text-center">
+                        <h4>Select Date</h4>
+                        <input type="date" placeholder="Search">
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3">
+                    <div class="price_slider">
+                        <h4>Price Range</h4>
+                        <div class="min_max">
+                            <div class="max">
+                                <label for="">Max</label><span id="max-value"></span>
+                            </div>
+                        </div>
+
+
+                        <div class="max_range">
+                            <input type="range" min="2000" max="10000" value="8000" class="range" id="max">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =======--=====--==---- select Part ////----==--=====--======== -->
+
+
+    <!-- =======--=====--==---- select Part Two ////----==--=====--======== -->
+
+    <section id="select_two_part">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="typologies_part">
+                        <h4>Typologies</h4>
+
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="check_form">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckIndeterminate">
+                                        <label class="form-check-label" for="flexCheckIndeterminate">
+                                            Relax
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="check_form">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckIndeterminate">
+                                        <label class="form-check-label" for="flexCheckIndeterminate">
+                                            Cultural
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row second_row">
+                            <div class="col-lg-4">
+                                <div class="check_form">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckIndeterminate">
+                                        <label class="form-check-label" for="flexCheckIndeterminate">
+                                            Sport
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="check_form">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckIndeterminate">
+                                        <label class="form-check-label" for="flexCheckIndeterminate">
+                                            History
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4">
+                    <div class="typologies_part">
+                        <h4>Durations</h4>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="check_form">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckIndeterminate">
+                                        <label class="form-check-label" for="flexCheckIndeterminate">
+                                            1 - 4 Days
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-4">
+                                <div class="check_form">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckIndeterminate">
+                                        <label class="form-check-label" for="flexCheckIndeterminate">
+                                            4 - 8 Days
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row second_row">
+                            <div class="col-lg-4">
+                                <div class="check_form">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckIndeterminate">
+                                        <label class="form-check-label" for="flexCheckIndeterminate">
+                                            8 - 12 days
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-5">
+                                <div class="check_form">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckIndeterminate">
+                                        <label class="form-check-label" for="flexCheckIndeterminate">
+                                            12 - 16 Days
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3">
+                    <div class="typologies_part">
+                        <h4>Difficulty</h4>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="check_form">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckIndeterminate">
+                                        <label class="form-check-label" for="flexCheckIndeterminate">
+                                            Low
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-4">
+                                <div class="check_form">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckIndeterminate">
+                                        <label class="form-check-label" for="flexCheckIndeterminate">
+                                            Medium
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row second_row">
+                            <div class="col-lg-4">
+                                <div class="check_form">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckIndeterminate">
+                                        <label class="form-check-label" for="flexCheckIndeterminate">
+                                            High
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-2">
+                    <div class="typologies_part">
+                        <h4>Min Age</h4>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="check_form">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckIndeterminate">
+                                        <label class="form-check-label" for="flexCheckIndeterminate">
+                                            20
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-4">
+                                <div class="check_form">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckIndeterminate">
+                                        <label class="form-check-label" for="flexCheckIndeterminate">
+                                            12
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row second_row">
+                            <div class="col-lg-4">
+                                <div class="check_form">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckIndeterminate">
+                                        <label class="form-check-label" for="flexCheckIndeterminate">
+                                            2
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =======--=====--==---- select Part Two ////----==--=====--======== -->
+
+
+
+    <!-- =======--=====--==---- confirm Book ////----==--=====--======== -->
+
+    <section id="confirm_pirt">
+        <div class="container px-lg-0">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="confirm text-center">
+                        <a href="#">Confirm Your Book</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =======--=====--==---- confirm Book ////----==--=====--======== -->
+
+
+    <!-- =======--=====--==---- book desti ////----==--=====--======== -->
+
+    <section id="book_desti_part">
+        <div class="container px-lg-0">
+            <div class="row">
+
+                <div class="col-lg-3">
+                    <div class="book_desti_all">
+                        <div class="book_desti_image">
+                            <img src="images/bookdesti/1.jpg" class="img-fluid w-100" alt="">
+                            <div class="image_back">
+                                <h5>For Visite</h5>
+                                <a href="#">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="book_desti_image_info">
+                        <h6>Austria</h6>
+                        <p>Europe</p>
+
+                        <div class="package_info">
+                            <p class="package_text_info">Package <span>$ 700</span> </p>
+                        </div>
+
+                        <div class="text">
+                            <p class="text_info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus,
+                                nemo. Quibusdam delectus atque cupiditate repellendus veniam.</p>
+                        </div>
+
+                        <a href="packages.html">Details</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="book_desti_all">
+                        <div class="book_desti_image">
+                            <img src="images/bookdesti/2.jpg" class="img-fluid w-100" alt="">
+                            <div class="image_back">
+                                <h5>For Visite</h5>
+                                <a href="#">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="book_desti_image_info">
+                        <h6>Nepal</h6>
+                        <p>Asia</p>
+
+                        <div class="package_info">
+                            <p class="package_text_info">Package <span>$ 850</span> </p>
+                        </div>
+
+                        <div class="text">
+                            <p class="text_info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus,
+                                nemo. Quibusdam delectus atque cupiditate repellendus veniam.</p>
+                        </div>
+
+                        <a class="sec_color" href="packages.html">Details</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="book_desti_all">
+                        <div class="book_desti_image">
+                            <img src="images/bookdesti/3.jpg" class="img-fluid w-100" alt="">
+                            <div class="image_back">
+                                <h5>For Visite</h5>
+                                <a href="#">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="book_desti_image_info">
+                        <h6>Finland</h6>
+                        <p>Europe</p>
+
+                        <div class="package_info">
+                            <p class="package_text_info">Package <span>$ 900</span> </p>
+                        </div>
+
+                        <div class="text">
+                            <p class="text_info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus,
+                                nemo. Quibusdam delectus atque cupiditate repellendus veniam.</p>
+                        </div>
+
+                        <a class="third_color" href="packages.html">Details</a>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3">
+                    <div class="book_desti_all">
+                        <div class="book_desti_image">
+                            <img src="images/bookdesti/4.jpg" class="img-fluid w-100" alt="">
+                            <div class="image_back">
+                                <h5>For Visite</h5>
+                                <a href="#">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="book_desti_image_info">
+                        <h6>Tokyo</h6>
+                        <p>Asia</p>
+
+                        <div class="package_info">
+                            <p class="package_text_info">Package <span>$ 800</span> </p>
+                        </div>
+
+                        <div class="text">
+                            <p class="text_info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus,
+                                nemo. Quibusdam delectus atque cupiditate repellendus veniam.</p>
+                        </div>
+
+                        <a class="fourth_color" href="packages.html">Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- =======--=====--==---- book desti ////----==--=====--======== -->
+
+
+
+
+    <!-- =======--=====--==---- Footer Part ////----==--=====--======== -->
+
+
+    <footer id="footer">
+        <div class="footer_part main_overley"
+            style="background: url(images/footer/footer.jpg) no-repeat center; background-size: cover;">
+            <div class="container px-lg-0">
+                <div class="row">
+
+                    <!-- footer left ========// -->
+                    <div class="col-lg-4">
+                        <div class="footer_left">
+                            <div class="footer_logo">
+                                <img src="images/footer/footlogo.png" class="img-fluid w-100" alt="">
+                            </div>
+
+                            <div class="footer_left_info">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea temporibus voluptatibus
+                                    deleniti officia perspiciatis, provident incidunt molestias impedit! Repellat
+                                    voluptas amet voluptatem aspernatur vero facilis aut ex minus impedit odio!</p>
+                            </div>
+
+                            <div class="footer_icon">
+                                <a class="face_book" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="twi_tter" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="pin_terest" href="#"><i class="fab fa-pinterest-p"></i></a>
+                                <a class="you_tube" href="#"><i class="fab fa-youtube-square"></i></a>
+                                <a class="ins_ta" href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- footer left ========// -->
+
+
+                    <!-- footer Middle ========// -->
+                    <div class="col-lg-2">
+                        <div class="footer_middle">
+                            <div class="agency">
+                                <h4>Our Agency</h4>
+                                <ul>
+                                    <li>Services</li>
+                                    <li>Agency</li>
+                                    <li>Tourism</li>
+                                    <li>Payment</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- footer Middle ========// -->
+
+
+
+                    <div class="col-lg-2">
+                        <div class="footer_middle">
+                            <div class="agency">
+                                <h4>Partners</h4>
+                                <ul>
+                                    <li>Booking</li>
+                                    <li>Rental Car</li>
+                                    <li>Hostel</li>
+                                    <li>World</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-lg-3">
+                        <div class="cont_text">
+                            <h4>Contact</h4>
+                            <ul>
+                                <li><i class="fas fa-map-marker-alt"></i>1234 Park Street Avenue, NY City</li>
+                                <li><i class="fas fa-phone-alt"></i>+88 017 386 96914</li>
+                                <li><i class="fas fa-envelope"></i>admin@info.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer_last text-center">
+                    <h6>Copyright © 2022. All rights reserved.</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- =======--=====--==---- Footer Part ////----==--=====--======== -->
+
+
+
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.stepcycle.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/Jzoom.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/handleCounter.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

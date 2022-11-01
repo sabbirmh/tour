@@ -1,0 +1,153 @@
+/* =======******======  book desti ======******====== */
+
+#book_desti_part {
+    padding: 30px 0 70px;
+
+    .container {
+
+        .book_desti_all {
+            position: relative;
+
+
+            .book_desti_image {
+                transition: all linear.3s;
+
+                .image_back {
+                    position: absolute;
+                    left: 50%;
+                    top: 10%;
+                    transform: rotateY(190deg);
+                    visibility: hidden;
+
+                    h5 {
+                        color: #f6f6f6;
+                        font-size: 20px;
+                        font-weight: 700;
+                        font-family: 'Nunito Sans', sans-serif;
+                    }
+
+                    a {
+                        color: #f1f1f1;
+                        font-size: 13px;
+                        font-weight: 600;
+                        font-family: 'Nunito Sans', sans-serif;
+                        border: 1px solid #7FFFD4;
+                        padding: 5px 10px;
+                        margin-top: 13px;
+                        transition: all linear .3s;
+
+                        &:hover {
+                            border: 1px solid #7FFFD4;
+                            color: #222;
+                            background: #7FFFD4;
+                        }
+                    }
+                }
+
+            }
+
+            &:hover {
+                .book_desti_image {
+                    transform: rotateY(190deg);
+                    background-color: rgba(0, 51, 102, 0.8);
+
+                    .image_back {
+                        visibility: visible;
+
+                    }
+                }
+
+
+            }
+        }
+
+
+        .book_desti_image_info {
+            margin-top: 20px;
+
+            position: relative;
+
+                &::after{
+                    position: absolute;
+                    content: '';
+                    left: 0;
+                    top: 45px;
+                    width: 100px;
+                    height: 1px;
+                    background: #040404;
+                }
+
+            h6 {
+                color: #555;
+                font-size: 18px;
+                font-weight: 900;
+                font-family: 'Nunito Sans', sans-serif;
+            }
+
+            p {
+                color: #6666;
+                font-size: 15px;
+                font-weight: 700;
+                font-family: 'Nunito Sans', sans-serif;
+                
+
+
+            }
+
+
+            .package_info {
+                .package_text_info {
+                    color: #040404;
+                    font-size: 14px;
+                    font-weight: 400;
+                    font-family: 'Nunito Sans', sans-serif;
+                    margin-top: 8px;
+
+                    span {
+                        margin-left: 150px;
+                        color: #7FFFD4;
+                        font-size: 13px;
+                        font-weight: 700;
+                    }
+                }
+            }
+
+            .text {
+                .text_info {
+                    color: #a4a4a4;
+                    font-size: 14px;
+                    font-weight: 400;
+                    font-family: 'Nunito Sans', sans-serif;
+                    margin-top: 8px;
+                }
+            }
+
+            a {
+                color: #fff;
+                font-size: 16px;
+                font-weight: 600;
+                font-family: 'Nunito Sans', sans-serif;
+                margin-top: 10px;
+                padding: 8px 20px;
+                border-radius: 20px;
+                background: linear-gradient(45deg, #ffd205, #fd7e14);
+
+            }
+
+            .sec_color{
+                background: linear-gradient(45deg, #d63384, #6f42c1);
+            }
+
+            .third_color{
+                background: linear-gradient(45deg, #ffd205, #fd7e14);
+            }
+
+            .fourth_color{
+                background: linear-gradient(45deg, #fbd6a1, #7FFFD4);
+            }
+        }
+    }
+}
+
+
+/* =======******======  book desti ======******====== */

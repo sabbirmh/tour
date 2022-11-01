@@ -1,0 +1,132 @@
+/* =======******====== Menu ======******====== */
+
+#menus{
+    padding: 5px 0;
+    // background: rgba(137, 207, 240, 0.7);
+    background: rgba(0, 2, 32, 0.584);
+    position: absolute;
+           left: 0;
+           top: 50px;
+           z-index: 999;
+           width: 100%;
+    .container{
+
+        .menu_fix{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 999;
+            background: rgba(0, 28, 61, 0.7);
+        }
+        .menu_part {
+            display: flex;
+            
+           
+
+            .logo {
+                width: 200px;
+            }
+
+
+            .menu {
+
+                // margin-top: 20px;
+                line-height: 79px;
+
+                ul {
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+
+                    li {
+                        margin: 10px;
+                        display: inline-block;
+                        margin: 0.4em 0.8em;
+                        padding: 0;
+
+
+                        a {
+                            // color: adjust-hue($color: #000000, $degrees: 0);
+                            color: #7FFFD4;
+                            font-size: 14px;
+                            font-weight: 600;
+                            font-family: 'Nunito Sans', sans-serif;
+                            letter-spacing: 1px;
+                            position: relative;
+                            text-decoration: none;
+                            display: inline-block;
+                            padding: 2px;
+
+                            &::before {
+                                position: absolute;
+                                content: '';
+                                transition: all 0.35s ease;
+                                opacity: 0;
+                                left: 20px;
+                                right: 20px;
+                                top: 30px;
+                                bottom: 0;
+                                border-left: 3px solid #27ae60;
+                                border-right: 3px solid #27ae60;
+                                height: 25px;
+                            }
+
+                            &:hover {
+                                color: white;
+
+                                &:before {
+                                    opacity: 1;
+                                    left: -7px;
+                                    right: -7px;
+                                }
+                            }
+                        }
+                    }
+
+                    .current {
+                        a {
+                            color: white;
+
+                            &:before {
+                                opacity: 1;
+                                left: -7px;
+                                right: -7px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .menu_right {
+            
+                a {
+                    color: #000000;
+                    font-size: 16px;
+                    font-weight: 900;
+                    font-family: 'Nunito Sans', sans-serif;
+                    border: 1px solid #7FFFD4;
+                    background: #7FFFD4;
+                    padding: 10px 30px;
+                    border-radius: 8px;
+                    margin-top: 27px;
+                    transition: all linear .3s;
+    
+                    &:hover {
+                        color: #fff;
+                    }
+                }
+            }
+
+            
+        }
+
+
+        
+    }
+
+    
+}
+
+
+/* =======******====== Menu ======******====== */

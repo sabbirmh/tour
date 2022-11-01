@@ -1,0 +1,2014 @@
+/* =======******====== Common css start ======******====== */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* =======******====== Common css End ======******====== */
+/* =======******====== Banner ======******====== */
+#banner .main_overley {
+  position: relative;
+  z-index: 1;
+}
+
+#banner .main_overley::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+#banner .banner_part {
+  padding: 100px 0 180px;
+}
+
+#banner .container .banner_head {
+  margin-top: 115px;
+}
+
+#banner .container .banner_head h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 900;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+#banner .container .banner_head h1 .span {
+  display: block;
+  color: #fff;
+}
+
+#banner .container .banner_head .data h4 {
+  color: #7FFFD4;
+  font-size: 20px;
+  font-weight: 900;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: -105px;
+}
+
+/* =======******====== Banner ======******====== */
+/* =======******====== About======******====== */
+#about {
+  padding: 80px 0 20px;
+}
+
+#about .about_img_slider {
+  position: relative;
+}
+
+#about .about_img_slider .content {
+  position: absolute;
+  left: 25%;
+  top: 0;
+}
+
+#about .about_info {
+  margin-top: 30px;
+}
+
+#about .about_info h4 {
+  color: #999;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Nunito Sans', sans-serif;
+  line-height: 20px;
+}
+
+#about .about_head h3 {
+  color: #555;
+  font-size: 25px;
+  font-weight: 900;
+  font-family: 'Nunito Sans', sans-serif;
+  position: relative;
+}
+
+#about .about_head h3::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 2px;
+  background: #7FFFD4;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.96);
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.96);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.96);
+}
+
+#about .about_right {
+  position: relative;
+}
+
+#about .about_right .about_right_image {
+  position: relative;
+  -webkit-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+
+#about .about_right .about_right_image .overley {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 28, 61, 0.5);
+  opacity: 1;
+}
+
+#about .about_right .about_right_image .image_back {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  -webkit-transform: rotateY(190deg);
+          transform: rotateY(190deg);
+  visibility: hidden;
+}
+
+#about .about_right .about_right_image .image_back h5 {
+  color: #f6f6f6;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+#about .about_right .about_right_image .image_back a {
+  color: #f1f1f1;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+  border: 1px solid #7FFFD4;
+  padding: 5px 10px;
+  margin-top: 13px;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+}
+
+#about .about_right .about_right_image .image_back a:hover {
+  border: 1px solid #7FFFD4;
+  color: #222;
+  background: #7FFFD4;
+}
+
+#about .about_right:hover .about_right_image {
+  -webkit-transform: rotateY(190deg);
+          transform: rotateY(190deg);
+  background-color: rgba(0, 51, 102, 0.8);
+}
+
+#about .about_right:hover .about_right_image .image_back {
+  visibility: visible;
+}
+
+/* =======******====== About======******====== */
+/* =======******====== DESTI ======******====== */
+#destination_part {
+  padding: 0 0 60px;
+}
+
+#destination_part .container .desti_head h3 {
+  color: #555;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Nunito Sans', sans-serif;
+  position: relative;
+}
+
+#destination_part .container .desti_image {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+  margin-top: 20px;
+}
+
+#destination_part .container .desti_image::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left bottom, left top, from(#000), to(transparent));
+  background: linear-gradient(to top, #000, transparent);
+  z-index: 2;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+#destination_part .container .desti_image .overley {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  background: rgba(0, 28, 61, 0.6);
+}
+
+#destination_part .container .desti_image .overley .desti_text {
+  position: absolute;
+  padding: 0 20px;
+  width: 100%;
+  top: -2px;
+  color: #fff;
+  left: 0;
+  z-index: 2;
+  -webkit-transition: 1.1s;
+  transition: 1.1s;
+}
+
+#destination_part .container .desti_image .overley .desti_text h5 {
+  color: #f1f1f1;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+#destination_part .container .desti_image .overley .desti_text h5 span {
+  display: block;
+}
+
+#destination_part .container .desti_image .overley .desti_text a {
+  color: #f1f1f1;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+  border: 1px solid #7FFFD4;
+  padding: 5px 10px;
+  margin-top: 13px;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+}
+
+#destination_part .container .desti_image .overley .desti_text a:hover {
+  border: 1px solid #7FFFD4;
+  color: #222;
+  background: #7FFFD4;
+}
+
+#destination_part .container .desti_image:hover {
+  -webkit-transform: translateY(-15px);
+          transform: translateY(-15px);
+}
+
+#destination_part .container .desti_image:hover::before {
+  opacity: 1;
+}
+
+#destination_part .container .desti_image:hover .overley {
+  opacity: 1;
+}
+
+#destination_part .container .desti_image:hover .desti_text {
+  top: 40px;
+}
+
+#destination_part .container .bitween_padding {
+  padding-top: 25px;
+}
+
+/* =======******====== DESTI ======******====== */
+/* =======******====== SEA ======******====== */
+#Winter_tour {
+  padding: 60px 0;
+  background: #f1f1f1;
+}
+
+#Winter_tour .main_overley {
+  position: relative;
+  z-index: 1;
+}
+
+#Winter_tour .main_overley::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+#Winter_tour .winter_item {
+  padding: 100px 0;
+}
+
+#Winter_tour .container .winter_info h6 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+#Winter_tour .container .winter_info h5 {
+  color: #7FFFD4;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 8px;
+}
+
+#Winter_tour .container .winter_info p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 5px;
+}
+
+#Winter_tour .container .winter_info .search_ber {
+  display: inline-block;
+  position: relative;
+  margin-top: 6px;
+}
+
+#Winter_tour .container .winter_info .search_ber input {
+  width: 320px;
+  height: 36px;
+  border: 1px solid #fff;
+  margin-top: 8px;
+  background: transparent;
+}
+
+#Winter_tour .container .winter_info .search_ber button {
+  position: absolute;
+  background: transparent;
+  border: 0;
+  top: 40%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 15px;
+  font-size: 12px;
+  color: #7FFFD4;
+  margin-top: 8px;
+}
+
+#Winter_tour .container .read a {
+  color: #f1f1f1;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 15px;
+  margin-left: 20px;
+  padding: 8px 25px;
+  background: #f76570;
+  border-radius: 5px;
+}
+
+/* =======******====== SEA ======******====== */
+#Packages {
+  padding: 50px;
+}
+
+#Packages .container .pack_head h3 {
+  color: #555;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Nunito Sans', sans-serif;
+  position: relative;
+}
+
+#Packages .container .package_img {
+  width: 266px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+#Packages .container .package_img img {
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 5px rgba(184, 184, 184, 0.63);
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(184, 184, 184, 0.63);
+  -moz-box-shadow: 0px 0px 15px 5px rgba(184, 184, 184, 0.63);
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+}
+
+#Packages .container .package_img:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#Packages .container .pak_info {
+  margin-top: 20px;
+  padding: 20px 0;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 5px rgba(184, 184, 184, 0.63);
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(184, 184, 184, 0.63);
+  -moz-box-shadow: 0px 0px 15px 5px rgba(184, 184, 184, 0.63);
+}
+
+#Packages .container .pak_info h5 {
+  color: #040406;
+  font-size: 14px;
+  font-weight: 900;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-left: 20px;
+}
+
+#Packages .container .pak_info h5 span {
+  display: block;
+  color: #00BFFF;
+}
+
+#Packages .container .pak_info h6 {
+  width: 100%;
+  height: 30px;
+  background: #7FFFD4;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 900;
+  font-family: 'Nunito Sans', sans-serif;
+  line-height: 30px;
+  margin-top: 15px;
+  padding: 0 10px;
+}
+
+#Packages .container .pak_info h6 span {
+  margin-left: 140px;
+}
+
+#Packages .container .pak_info p {
+  color: #999;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+#Packages .container .pak_info a {
+  color: #f1f1f1;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 15px;
+  margin-left: 20px;
+  padding: 8px 25px;
+  background: #ffd205;
+  border-radius: 5px;
+}
+
+#Packages .container .pak_info .color_one {
+  background: #f3a46b;
+}
+
+#Packages .container .pak_info .color_two {
+  background: #f76570;
+}
+
+#Packages .container .pak_info .color_three {
+  background: #ba71da;
+}
+
+#Packages .container .all_row {
+  margin-top: 50px;
+}
+
+#best_tour {
+  padding: 50px;
+}
+
+#best_tour .container .tour_photo_text {
+  margin-top: 40px;
+}
+
+#best_tour .container .tour_photo_text h6 {
+  color: #333;
+  font-size: 13px;
+  font-weight: 900;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 10px;
+}
+
+#best_tour .container .tour_photo_text h4 {
+  color: #00BFFF;
+  font-size: 21px;
+  font-weight: 900;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 10px;
+}
+
+#best_tour .container .tour_photo_text p {
+  color: #9a9a9a;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 10px;
+  line-height: 20px;
+}
+
+#best_tour .container .tour_photo_text a {
+  color: #9a9a9a;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+  padding: 8px 20px;
+  background: #FFE4B5;
+  border-radius: 2px;
+  margin-top: 40px;
+}
+
+#best_tour .container .tour_photo_info {
+  padding: 10px 0;
+  background: #7FFFD4;
+  margin-top: 15px;
+  box-shadow: 0px 0px 15px 5px rgba(184, 184, 184, 0.63);
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(184, 184, 184, 0.63);
+  -moz-box-shadow: 0px 0px 15px 5px rgba(184, 184, 184, 0.63);
+}
+
+#best_tour .container .tour_photo_info ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#best_tour .container .tour_photo_info ul li {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 900;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-left: 20px;
+  padding: 20px;
+}
+
+#best_tour .container .tour_photo_info ul li span {
+  display: block;
+}
+
+#best_tour .container .besttr_right .break {
+  padding-top: 20px;
+}
+
+#best_tour .container .besttr_right .tour_info p {
+  color: #9a9a9a;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 10px;
+  line-height: 25px;
+}
+
+#hotel_part {
+  padding: 60px;
+}
+
+#hotel_part .container .head h3 {
+  color: #555;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Nunito Sans', sans-serif;
+  position: relative;
+}
+
+#hotel_part .container .row_service {
+  margin-top: 30px;
+}
+
+#hotel_part .container .row_service .hotel_detail h5 {
+  color: #00BFFF;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-bottom: 20px;
+}
+
+#hotel_part .container .row_service .hotel_detail p {
+  color: #9a9a9a;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 10px;
+}
+
+#hotel_part .container .row_service .language_service h5 {
+  color: #00BFFF;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-bottom: 20px;
+}
+
+#hotel_part .container .row_service .language_service p {
+  color: #9a9a9a;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 10px;
+}
+
+#hotel_part .container .row_service .security_service h5 {
+  color: #00BFFF;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-bottom: 20px;
+}
+
+#hotel_part .container .row_service .security_service p {
+  color: #9a9a9a;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 10px;
+}
+
+#footer .footer_part {
+  padding: 100px 0 100px;
+}
+
+#footer .footer_part .container {
+  position: relative;
+  padding: 50px 0;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+#footer .footer_part .container .footer_left .footer_logo {
+  width: 200px;
+}
+
+#footer .footer_part .container .footer_left .footer_left_info p {
+  color: #666;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-left: 10px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+#footer .footer_part .container .footer_icon a {
+  margin-left: 10px;
+  margin-top: 40px;
+  font-size: 13px;
+  color: #00BFFF;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+}
+
+#footer .footer_part .container .footer_icon a:hover {
+  color: orange;
+}
+
+#footer .footer_part .container .footer_middle .agency {
+  margin-left: 20px;
+}
+
+#footer .footer_part .container .footer_middle .agency h4 {
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+#footer .footer_part .container .footer_middle .agency ul {
+  margin-top: 40px;
+}
+
+#footer .footer_part .container .footer_middle .agency ul li {
+  color: #666;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 5px;
+}
+
+#footer .footer_part .container .cont_text h4 {
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+#footer .footer_part .container .cont_text ul {
+  margin-top: 40px;
+}
+
+#footer .footer_part .container .cont_text ul li {
+  color: #666;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Nunito Sans',sans-serif;
+}
+
+#footer .footer_part .container .cont_text ul li i {
+  color: #00BFFF;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+#footer .footer_part .container .footer_last {
+  position: absolute;
+  height: 50px;
+  width: 100%;
+  background: #00BFFF;
+  margin-top: 49px;
+}
+
+#footer .footer_part .container .footer_last h6 {
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Nunito Sans',sans-serif;
+  margin: 10px 0;
+}
+
+/* =======******====== Menu ======******====== */
+#menus {
+  padding: 5px 0;
+  background: rgba(0, 2, 32, 0.584);
+  position: absolute;
+  left: 0;
+  top: 50px;
+  z-index: 999;
+  width: 100%;
+}
+
+#menus .container .menu_fix {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background: rgba(0, 28, 61, 0.7);
+}
+
+#menus .container .menu_part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#menus .container .menu_part .logo {
+  width: 200px;
+}
+
+#menus .container .menu_part .menu {
+  line-height: 79px;
+}
+
+#menus .container .menu_part .menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+#menus .container .menu_part .menu ul li {
+  margin: 10px;
+  display: inline-block;
+  margin: 0.4em 0.8em;
+  padding: 0;
+}
+
+#menus .container .menu_part .menu ul li a {
+  color: #7FFFD4;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+  letter-spacing: 1px;
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  padding: 2px;
+}
+
+#menus .container .menu_part .menu ul li a::before {
+  position: absolute;
+  content: '';
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  opacity: 0;
+  left: 20px;
+  right: 20px;
+  top: 30px;
+  bottom: 0;
+  border-left: 3px solid #27ae60;
+  border-right: 3px solid #27ae60;
+  height: 25px;
+}
+
+#menus .container .menu_part .menu ul li a:hover {
+  color: white;
+}
+
+#menus .container .menu_part .menu ul li a:hover:before {
+  opacity: 1;
+  left: -7px;
+  right: -7px;
+}
+
+#menus .container .menu_part .menu ul .current a {
+  color: white;
+}
+
+#menus .container .menu_part .menu ul .current a:before {
+  opacity: 1;
+  left: -7px;
+  right: -7px;
+}
+
+#menus .container .menu_part .menu_right a {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 900;
+  font-family: 'Nunito Sans', sans-serif;
+  border: 1px solid #7FFFD4;
+  background: #7FFFD4;
+  padding: 10px 30px;
+  border-radius: 8px;
+  margin-top: 27px;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+}
+
+#menus .container .menu_part .menu_right a:hover {
+  color: #fff;
+}
+
+/* =======******====== Menu ======******====== */
+/* =======******====== Visa ======******====== */
+#visa_part {
+  padding: 30px 0 10px;
+  background: #f2f2f2;
+}
+
+#visa_part .container .head h3 {
+  color: #555;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Nunito Sans', sans-serif;
+  position: relative;
+}
+
+#visa_part .container .visa_main {
+  padding-top: 72px;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+}
+
+#visa_part .container .visa_main .visa_img {
+  position: relative;
+}
+
+#visa_part .container .visa_main .visa_img .overley {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  top: 10px;
+  bottom: 10px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#000), to(transparent));
+  background: linear-gradient(to top, #000, transparent);
+  border: 5px solid #00BFFF;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+}
+
+#visa_part .container .visa_main .visa_img .overley ul {
+  position: absolute;
+  right: 46%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+#visa_part .container .visa_main .visa_img .overley ul li a {
+  color: #000;
+  width: 30px;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+}
+
+#visa_part .container .visa_main .visa_img .overley ul li a:hover {
+  background: #040406;
+  color: #7FFFD4;
+}
+
+#visa_part .container .visa_main .visa_img:hover .overley {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+#visa_part .container .visa_main .visa_text {
+  border: 1px solid transparent;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+}
+
+#visa_part .container .visa_main .visa_text h5 {
+  color: #00BFFF;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 10px;
+}
+
+#visa_part .container .visa_main .visa_text p {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+  color: #040406;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 10px;
+}
+
+#visa_part .container .visa_main:hover {
+  -webkit-transform: translateY(-42px);
+          transform: translateY(-42px);
+}
+
+#visa_part .container .visa_main:hover .visa_text {
+  border-color: #040406;
+}
+
+#visa_part .container .visa_main:hover .visa_text p {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+/* =======******====== Visa ======******====== */
+/* =======******====== Responsive ======******====== */
+/* =======******====== Responsive ======******====== */
+/* =======******====== Banner ======******====== */
+#desti_banner .main_overley .main_overley {
+  position: relative;
+  z-index: 1;
+}
+
+#desti_banner .main_overley .main_overley::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+#desti_banner .banner_part {
+  padding: 100px 0 150px;
+}
+
+#desti_banner .banner_part .container .banner_head {
+  margin-top: 125px;
+}
+
+#desti_banner .banner_part .container .banner_head h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 50px;
+}
+
+/* =======******====== Banner ======******====== */
+/* =======******====== Inner desti ======******====== */
+#inner_desti_part {
+  padding: 20px 0;
+}
+
+#inner_desti_part .container .location {
+  width: 300px;
+  height: 50px;
+  background: linear-gradient(200deg, #fbd6a1, #7FFFD4);
+}
+
+#inner_desti_part .container .location .location_info h4 {
+  color: #904a18;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Nunito Sans', sans-serif;
+  line-height: 50px;
+  margin-left: 10px;
+}
+
+#inner_desti_part .container .location .location_info h4 i {
+  margin-right: 10px;
+  color: #fff;
+}
+
+#inner_desti_part .container .inner_text {
+  position: relative;
+}
+
+#inner_desti_part .container .inner_text::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: -16px;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(85deg, #fbd6a1, #7FFFD4);
+}
+
+#inner_desti_part .container .inner_text p {
+  color: #a4a4a4;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+#inner_desti_part .container .inner_text span {
+  font-size: 50px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+#inner_desti_part .container .inner_gell_info h6 {
+  color: #7FFFD4;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#inner_desti_part .container .row_slider .slick-slide {
+  margin: 0 12px;
+}
+
+#inner_desti_part .container .desti_image {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+  margin-top: 20px;
+}
+
+#inner_desti_part .container .desti_image::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left bottom, left top, from(#000), to(transparent));
+  background: linear-gradient(to top, #000, transparent);
+  z-index: 2;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+#inner_desti_part .container .desti_image .overley {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  background: rgba(0, 28, 61, 0.6);
+}
+
+#inner_desti_part .container .desti_image .overley .desti_text {
+  position: absolute;
+  padding: 0 20px;
+  width: 100%;
+  top: -2px;
+  color: #fff;
+  left: 0;
+  z-index: 2;
+  -webkit-transition: 1.1s;
+  transition: 1.1s;
+}
+
+#inner_desti_part .container .desti_image .overley .desti_text h5 {
+  color: #f1f1f1;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+#inner_desti_part .container .desti_image .overley .desti_text h5 span {
+  display: block;
+}
+
+#inner_desti_part .container .desti_image .overley .desti_text a {
+  color: #f1f1f1;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+  border: 1px solid #7FFFD4;
+  padding: 5px 10px;
+  margin-top: 13px;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+}
+
+#inner_desti_part .container .desti_image .overley .desti_text a:hover {
+  border: 1px solid #7FFFD4;
+  color: #222;
+  background: #7FFFD4;
+}
+
+#inner_desti_part .container .desti_image:hover {
+  -webkit-transform: translateY(-15px);
+          transform: translateY(-15px);
+}
+
+#inner_desti_part .container .desti_image:hover::before {
+  opacity: 1;
+}
+
+#inner_desti_part .container .desti_image:hover .overley {
+  opacity: 1;
+}
+
+#inner_desti_part .container .desti_image:hover .desti_text {
+  top: 40px;
+}
+
+#inner_desti_part .container .related_destination {
+  margin-bottom: 30px;
+}
+
+#inner_desti_part .container .related_destination h4 {
+  color: #7FFFD4;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 60px;
+}
+
+#inner_desti_part .container .packages h4 {
+  color: #7FFFD4;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: 'Nunito Sans', sans-serif;
+  position: relative;
+}
+
+#inner_desti_part .container .packages h4:after {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: -10px;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(200deg, #fbd6a1, #7FFFD4);
+}
+
+#inner_desti_part .container .packages .package_info {
+  margin-top: 40px;
+  padding: 20px 0;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px 5px rgba(184, 184, 184, 0.3);
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(184, 184, 184, 0.3);
+  -moz-box-shadow: 0px 0px 15px 5px rgba(184, 184, 184, 0.3);
+}
+
+#inner_desti_part .container .packages .package_info .all_info {
+  margin-left: 10px;
+  position: relative;
+}
+
+#inner_desti_part .container .packages .package_info .all_info:after {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: -15px;
+  width: 200px;
+  height: 2px;
+  background: linear-gradient(200deg, #fbd6a1, #7FFFD4);
+}
+
+#inner_desti_part .container .packages .package_info .all_info h6 {
+  margin: 10px 0;
+  color: #a4a4a4;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+#inner_desti_part .container .packages .package_info .all_info h6 span {
+  margin-left: 140px;
+  color: #00BFFF;
+}
+
+#inner_desti_part .container .packages .package_info .all_info .couple span {
+  margin-left: 138px;
+}
+
+#inner_desti_part .container .packages .package_info .all_info .single span {
+  margin-left: 145px;
+}
+
+#inner_desti_part .container .packages .bookoption {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+#inner_desti_part .container .packages .bookoption input {
+  height: 30px;
+  outline: none;
+  padding: 0 10px;
+  font-size: 13px;
+  color: #6666;
+  margin: 8px 0;
+}
+
+#inner_desti_part .container .packages .bookoption textarea {
+  height: 60px;
+  outline: none;
+  padding: 0 10px;
+  font-size: 13px;
+  color: #6666;
+  margin: 8px 0;
+}
+
+#inner_desti_part .container .packages .select {
+  margin-left: 10px;
+  margin-top: 5px;
+  background: transparent;
+  border: 1px solid #999;
+  border-radius: 3px;
+  height: 30px;
+  padding: 0 10px;
+  font-size: 13px;
+  color: #6666;
+}
+
+#inner_desti_part .container .packages .book a {
+  color: #f1f1f1;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 15px;
+  margin-left: 10px;
+  padding: 8px 25px;
+  background: #f76570;
+  border-radius: 5px;
+}
+
+#inner_desti_part .container .search {
+  margin-top: 10px;
+  position: relative;
+  display: inline-block;
+}
+
+#inner_desti_part .container .search h4 {
+  color: #7FFFD4;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#inner_desti_part .container .search input {
+  width: 100%;
+  height: 40px;
+  outline: none;
+  padding: 0 10px;
+  font-size: 13px;
+  color: #6666;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #f76570;
+}
+
+#inner_desti_part .container .search button {
+  position: absolute;
+  background: transparent;
+  border: 0;
+  top: 73%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 15px;
+  font-size: 12px;
+  color: #9999;
+  margin-top: 8px;
+}
+
+#inner_desti_part .container .comment {
+  margin-top: 30px;
+}
+
+#inner_desti_part .container .comment .comment_img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+#inner_desti_part .container .comment .comment_img img {
+  border-radius: 50%;
+}
+
+#inner_desti_part .container .comment .comment_text {
+  color: #a4a4a4;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 10px;
+  line-height: 20px;
+}
+
+/* =======******====== Inner desti ======******====== */
+/* =======******====== Inner package ======******====== */
+#package_inner {
+  padding: 20px 0;
+}
+
+#package_inner .container .package_location {
+  margin-top: 30px;
+}
+
+#package_inner .container .package_location ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#package_inner .container .package_location ul li {
+  color: #040406;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0 10px;
+}
+
+#package_inner .container .package_location ul li i {
+  margin-right: 8px;
+  color: #f76570;
+}
+
+#package_inner .container .package_info {
+  margin-top: 30px;
+}
+
+#package_inner .container .package_info h4 {
+  color: #555555;
+  font-size: 25px;
+  font-weight: 900;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+#package_inner .container .package_info p {
+  color: #a4a4a4;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 20px;
+}
+
+#package_inner .container .package_info p span {
+  font-size: 50px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+#package_inner .container .condition h4 {
+  color: #555555;
+  font-size: 25px;
+  font-weight: 900;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 40px;
+}
+
+#package_inner .container .condition .row {
+  margin-top: 20px;
+}
+
+#package_inner .container .condition .row .icon ul li i {
+  color: #f76570;
+}
+
+#package_inner .container .condition .row .condition_text p {
+  color: #555555;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+#package_inner .container .condition .row .condiion_righ p {
+  color: #a4a4a4;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+#package_inner .container .inner_pack_gell h6 {
+  color: #555;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+#package_inner .container .row_slider_row .slick-slide {
+  padding: 0 12px;
+}
+
+#package_inner .container .package_detail h4 {
+  color: #555;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#package_inner .container .package_detail p {
+  color: #999;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Nunito Sans', sans-serif;
+  line-height: 35px;
+}
+
+#package_inner .container .map {
+  margin-top: 50px;
+}
+
+#package_inner .container .incluid {
+  margin-top: 30px;
+}
+
+#package_inner .container .incluid p {
+  color: #999;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 20px 0;
+}
+
+#package_inner .container .incluid p i {
+  margin-right: 10px;
+  font-size: 16px;
+  color: #f76570;
+}
+
+#package_inner .container .desti_image {
+  margin-top: 40px;
+}
+
+#package_inner .container .desti_image .desti_image {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+  margin-top: 20px;
+}
+
+#package_inner .container .desti_image .desti_image::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left bottom, left top, from(#000), to(transparent));
+  background: linear-gradient(to top, #000, transparent);
+  z-index: 2;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+#package_inner .container .desti_image .desti_image .overley {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  background: linear-gradient(45deg, rgba(255, 209, 5, 0.7), rgba(253, 125, 20, 0.7));
+}
+
+#package_inner .container .desti_image .desti_image .overley .desti_text {
+  position: absolute;
+  padding: 0 20px;
+  width: 100%;
+  top: -2px;
+  color: #fff;
+  left: 0;
+  z-index: 2;
+  -webkit-transition: 1.1s;
+  transition: 1.1s;
+}
+
+#package_inner .container .desti_image .desti_image .overley .desti_text h5 {
+  color: #f1f1f1;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+#package_inner .container .desti_image .desti_image .overley .desti_text h5 span {
+  display: block;
+}
+
+#package_inner .container .desti_image .desti_image .overley .desti_text a {
+  color: #f1f1f1;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+  border: 1px solid #7FFFD4;
+  padding: 5px 10px;
+  margin-top: 13px;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+}
+
+#package_inner .container .desti_image .desti_image .overley .desti_text a:hover {
+  border: 1px solid #7FFFD4;
+  color: #222;
+  background: #7FFFD4;
+}
+
+#package_inner .container .desti_image .desti_image:hover {
+  -webkit-transform: translateY(-15px);
+          transform: translateY(-15px);
+}
+
+#package_inner .container .desti_image .desti_image:hover::before {
+  opacity: 1;
+}
+
+#package_inner .container .desti_image .desti_image:hover .overley {
+  opacity: 1;
+}
+
+#package_inner .container .desti_image .desti_image:hover .desti_text {
+  top: 40px;
+}
+
+#package_inner .container .tags {
+  margin-top: 40px;
+}
+
+#package_inner .container .tags .all_tegs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#package_inner .container .tags ul {
+  margin-top: 20px;
+}
+
+#package_inner .container .tags ul li {
+  width: 110px;
+  height: 35px;
+  border: 1px solid #f1f1f1;
+  line-height: 35px;
+  padding-left: 20px;
+  border-radius: 10px;
+  color: #999;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0 10px;
+  display: block;
+  cursor: pointer;
+}
+
+#package_inner .container .most_desty {
+  margin-top: 40px;
+}
+
+#package_inner .container .most_desty .most_desti_img_info h5 {
+  color: #555;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+#package_inner .container .most_desty .most_desti_img_info h6 {
+  color: #a4a4a4;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 8px;
+}
+
+#package_inner .container .most_desty .most_desti_img_info h6 i {
+  margin-right: 5px;
+  color: #00BFFF;
+}
+
+#package_inner .container .most_desty .most_desti_img_info a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 10px;
+  padding: 8px 20px;
+  border-radius: 20px;
+  background: linear-gradient(45deg, #ffd205, #fd7e14);
+}
+
+#package_inner .container .most_desty .break_row {
+  margin-top: 20px;
+}
+
+#package_inner .container .most_desty .break_row .more_class a {
+  background: linear-gradient(45deg, #fbd6a1, #7FFFD4);
+}
+
+#package_inner .container .most_desty .break_row .more_class_last a {
+  background: linear-gradient(45deg, #d63384, #6f42c1);
+}
+
+#package_inner .container .open_time {
+  margin-top: 40px;
+}
+
+#package_inner .container .open_time h5 {
+  color: #9999;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 30px 0;
+}
+
+#package_inner .container .open_time h5 span {
+  margin-left: 100px;
+  padding: 5px 20px;
+  background: #ffd205;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+#package_inner .container .comment {
+  margin-top: 50px;
+}
+
+#package_inner .container .comment .comment_img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+#package_inner .container .comment .comment_img img {
+  border-radius: 50%;
+}
+
+#package_inner .container .comment .comment_text {
+  color: #a4a4a4;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 10px;
+  line-height: 20px;
+}
+
+/* =======******====== Inner package ======******====== */
+/* =======******====== banner select part ======******====== */
+#desti_banner .banner_part .container .banner_head h1 span {
+  color: #7FFFD4;
+}
+
+/* =======******====== banner select part ======******====== */
+/* =======******====== select part ======******====== */
+#select_part {
+  padding: 20px 0;
+}
+
+#select_part .container .select_desti {
+  margin-top: 10px;
+  position: relative;
+  display: inline-block;
+}
+
+#select_part .container .select_desti h4 {
+  color: #555;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-left: 20px;
+}
+
+#select_part .container .select_desti .select {
+  width: 130%;
+  height: 50px;
+  outline: none;
+  padding: 0 10px;
+  font-size: 13px;
+  color: #6666;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #999;
+  margin-left: 20px;
+  background: transparent;
+}
+
+#select_part .container .select_time {
+  margin-top: 10px;
+  position: relative;
+  display: inline-block;
+}
+
+#select_part .container .select_time h4 {
+  color: #555;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-left: 20px;
+}
+
+#select_part .container .select_time input {
+  width: 130%;
+  height: 50px;
+  outline: none;
+  padding: 0 10px;
+  font-size: 13px;
+  color: #6666;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #999;
+  margin-left: 20px;
+  background: transparent;
+}
+
+#select_part .container .price_slider {
+  margin-top: 8px;
+}
+
+#select_part .container .price_slider h4 {
+  color: #555;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-left: 20px;
+}
+
+#select_part .container .price_slider .min_max .max label {
+  color: #6666;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-left: 20px;
+}
+
+#select_part .container .price_slider .min_max .max span {
+  color: #555;
+  margin-left: 120px;
+  font-weight: 700;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+#select_part .container .price_slider .max_range input {
+  margin-left: 20px;
+  margin-top: 6px;
+}
+
+/* =======******====== select part ======******====== */
+/* =======******====== select part Two======******====== */
+#select_two_part {
+  padding: 15px 0;
+}
+
+#select_two_part .container .typologies_part h4 {
+  color: #555;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-bottom: 20px;
+}
+
+#select_two_part .container .typologies_part .check_form .form-check input {
+  border: 1px solid #999;
+}
+
+#select_two_part .container .typologies_part .check_form .form-check label {
+  color: #6666;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+#select_two_part .container .second_row {
+  margin-top: 13px;
+}
+
+/* =======******====== select part Two======******====== */
+/* =======******====== Confirm Book======******====== */
+#confirm_pirt {
+  padding: 10px 0 30px;
+}
+
+#confirm_pirt .container .confirm a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 10px;
+  padding: 8px 20px;
+  border-radius: 20px;
+  background: linear-gradient(45deg, #ffd205, #fd7e14);
+}
+
+/* =======******====== Confirm Book======******====== */
+/* =======******======  book desti ======******====== */
+#book_desti_part {
+  padding: 30px 0 70px;
+}
+
+#book_desti_part .container .book_desti_all {
+  position: relative;
+}
+
+#book_desti_part .container .book_desti_all .book_desti_image {
+  -webkit-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+
+#book_desti_part .container .book_desti_all .book_desti_image .image_back {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  -webkit-transform: rotateY(190deg);
+          transform: rotateY(190deg);
+  visibility: hidden;
+}
+
+#book_desti_part .container .book_desti_all .book_desti_image .image_back h5 {
+  color: #f6f6f6;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+#book_desti_part .container .book_desti_all .book_desti_image .image_back a {
+  color: #f1f1f1;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+  border: 1px solid #7FFFD4;
+  padding: 5px 10px;
+  margin-top: 13px;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+}
+
+#book_desti_part .container .book_desti_all .book_desti_image .image_back a:hover {
+  border: 1px solid #7FFFD4;
+  color: #222;
+  background: #7FFFD4;
+}
+
+#book_desti_part .container .book_desti_all:hover .book_desti_image {
+  -webkit-transform: rotateY(190deg);
+          transform: rotateY(190deg);
+  background-color: rgba(0, 51, 102, 0.8);
+}
+
+#book_desti_part .container .book_desti_all:hover .book_desti_image .image_back {
+  visibility: visible;
+}
+
+#book_desti_part .container .book_desti_image_info {
+  margin-top: 20px;
+  position: relative;
+}
+
+#book_desti_part .container .book_desti_image_info::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 45px;
+  width: 100px;
+  height: 1px;
+  background: #040404;
+}
+
+#book_desti_part .container .book_desti_image_info h6 {
+  color: #555;
+  font-size: 18px;
+  font-weight: 900;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+#book_desti_part .container .book_desti_image_info p {
+  color: #6666;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+#book_desti_part .container .book_desti_image_info .package_info .package_text_info {
+  color: #040404;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 8px;
+}
+
+#book_desti_part .container .book_desti_image_info .package_info .package_text_info span {
+  margin-left: 150px;
+  color: #7FFFD4;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+#book_desti_part .container .book_desti_image_info .text .text_info {
+  color: #a4a4a4;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 8px;
+}
+
+#book_desti_part .container .book_desti_image_info a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 10px;
+  padding: 8px 20px;
+  border-radius: 20px;
+  background: linear-gradient(45deg, #ffd205, #fd7e14);
+}
+
+#book_desti_part .container .book_desti_image_info .sec_color {
+  background: linear-gradient(45deg, #d63384, #6f42c1);
+}
+
+#book_desti_part .container .book_desti_image_info .third_color {
+  background: linear-gradient(45deg, #ffd205, #fd7e14);
+}
+
+#book_desti_part .container .book_desti_image_info .fourth_color {
+  background: linear-gradient(45deg, #fbd6a1, #7FFFD4);
+}
+
+/* =======******======  book desti ======******====== */
+/*# sourceMappingURL=style.css.map */

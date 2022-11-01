@@ -1,0 +1,192 @@
+/* =======******====== DESTI ======******====== */
+
+#destination_part {
+    padding: 0 0 60px;
+
+    .container {
+
+        .desti_head {
+
+            h3 {
+                color: #555;
+                font-size: 30px;
+                font-weight: 400;
+                font-family: 'Nunito Sans', sans-serif;
+                position: relative;
+            }
+
+
+        }
+
+
+        .desti_image {
+            position: relative;
+            display: block;
+            width: 100%;
+            height: auto;
+            transition: all linear .3s;
+            margin-top: 20px;
+
+            &::before {
+                position: absolute;
+                content: '';
+                top: 0;
+                left: 0;
+                display: block;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(to top, #000, transparent);
+                z-index: 2;
+                transition: 0.5s;
+                opacity: 0;
+
+            }
+
+
+            .overley {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 100%;
+                width: 100%;
+                opacity: 0;
+                transition: .5s ease;
+                // background-color: rgba(205, 49, 49, 0.7);
+                background: rgba(0, 28, 61, 0.6);
+
+                .desti_text {
+                    position: absolute;
+                    padding: 0 20px;
+                    width: 100%;
+                    top: -2px;
+                    color: #fff;
+                    left: 0;
+                    z-index: 2;
+                    transition: 1.1s;
+
+                    h5 {
+                        color: #f1f1f1;
+                        font-size: 14px;
+                        font-weight: 600;
+                        font-family: 'Nunito Sans', sans-serif;
+
+                        span {
+                            display: block;
+                        }
+                    }
+
+                    a {
+                        color: #f1f1f1;
+                        font-size: 13px;
+                        font-weight: 600;
+                        font-family: 'Nunito Sans', sans-serif;
+                        border: 1px solid #7FFFD4;
+                        padding: 5px 10px;
+                        margin-top: 13px;
+                        transition: all linear .3s;
+
+                        &:hover {
+                            border: 1px solid #7FFFD4;
+                            color: #222;
+                            background: #7FFFD4;
+                        }
+                    }
+
+                }
+
+            }
+
+
+            &:hover {
+                transform: translateY(-15px);
+
+                &::before {
+                    opacity: 1;
+                }
+
+                .overley {
+                    opacity: 1;
+                }
+
+                .desti_text {
+                    top: 40px;
+                }
+            }
+        }
+
+
+
+        // .deste_info {
+        //     position: relative;
+        //     display: block;
+        //     // width: 100%;
+        //     height: auto;
+
+
+        //     .overley {
+        //         position: absolute;
+        //         left: 0;
+        //         top: 0;
+        //         right: 0;
+        //         bottom: 0;
+        //         width: 100%;
+        //         height: 100%;
+        //         opacity: 0;
+        //         transition: all linear .3s;
+        //         background: rgba(137, 207, 240, 0.9);
+
+        //         .place {
+        //             margin-left: 25px;
+        //             margin-top: 130px;
+
+        //             h5 {
+        //                 color: #f1f1f1;
+        //                 font-size: 16px;
+        //                 font-weight: 900;
+        //                 font-family: 'Nunito Sans', sans-serif;
+
+        //             }
+        //         }
+
+
+
+        //         a {
+        //             color: #f1f1f1;
+        //             font-size: 16px;
+        //             font-weight: 900;
+        //             font-family: 'Nunito Sans', sans-serif;
+        //             margin-top: 12px;
+        //             margin-left: 20px;
+        //             padding: 10px 20px;
+        //             border-radius: 9px;
+        //             background: rgba(51, 51, 51, 0.5);
+        //             transition: all linear .3s;
+
+        //             span {
+        //                 color: #f1f;
+        //             }
+
+        //             &:hover {
+        //                 color: #333;
+        //                 background: rgba(241, 241, 241, 0.5);
+        //             }
+        //         }
+        //     }
+
+        //     &:hover {
+        //         .overley {
+        //             opacity: 1;
+        //         }
+        //     }
+        // }
+
+
+        .bitween_padding {
+            padding-top: 25px;
+        }
+    }
+}
+
+/* =======******====== DESTI ======******====== */

@@ -1,0 +1,108 @@
+/* =======******====== select part ======******====== */
+
+#select_part {
+    padding: 20px 0;
+
+    .container {
+
+        .select_desti {
+            h4 {
+                color: #555;
+                font-size: 20px;
+                font-weight: 700;
+                font-family: 'Nunito Sans', sans-serif;
+                margin-left: 20px;
+            }
+
+
+            margin-top: 10px;
+            position: relative;
+            display: inline-block;
+
+            .select {
+                width: 130%;
+                height: 50px;
+                outline: none;
+                padding: 0 10px;
+                font-size: 13px;
+                color: #6666;
+                margin: 8px 0;
+                border-radius: 5px;
+                border: 1px solid #999;
+                margin-left: 20px;
+                background: transparent;
+            }
+        }
+
+
+        .select_time {
+            h4 {
+                color: #555;
+                font-size: 20px;
+                font-weight: 700;
+                font-family: 'Nunito Sans', sans-serif;
+                margin-left: 20px;
+            }
+
+
+            margin-top: 10px;
+            position: relative;
+            display: inline-block;
+
+            input {
+                width: 130%;
+                height: 50px;
+                outline: none;
+                padding: 0 10px;
+                font-size: 13px;
+                color: #6666;
+                margin: 8px 0;
+                border-radius: 5px;
+                border: 1px solid #999;
+                margin-left: 20px;
+                background: transparent;
+            }
+        }
+
+        .price_slider {
+            margin-top: 8px;
+            h4 {
+                color: #555;
+                font-size: 20px;
+                font-weight: 700;
+                font-family: 'Nunito Sans', sans-serif;
+                margin-left: 20px;
+            }
+
+            .min_max {
+                .max {
+                    label {
+                        color: #6666;
+                        font-size: 15px;
+                        font-weight: 700;
+                        font-family: 'Nunito Sans', sans-serif;
+                        margin-left: 20px;
+                    }
+
+                    span{
+                        color: #555;
+                        margin-left: 120px;
+                        font-weight: 700;
+                        font-family: 'Nunito Sans', sans-serif;
+                    }
+                }
+            }
+
+            .max_range{
+                input{
+                    margin-left: 20px;
+                    margin-top: 6px;
+                }
+            }
+        }
+    }
+
+}
+
+
+/* =======******====== select part ======******====== */
